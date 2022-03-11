@@ -1,11 +1,6 @@
 import './VideoPlayer.css';
 
-interface VideoPlayerProps {
-  src: string;
-  autoPlay?: boolean;
-}
-
-const VideoPlayer: React.FC<VideoPlayerProps> = ({ src, autoPlay = true }) => {
+const VideoPlayer: React.FC = () => {
   return <div></div>;
 };
 
